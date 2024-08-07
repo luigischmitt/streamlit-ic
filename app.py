@@ -2,55 +2,55 @@ import streamlit as st
 
 st.set_page_config(page_title="Futuro das Linguagens de Programação", page_icon="💻", layout="wide")
 
-st.markdown("""
-    <style>
-    .main {
-        background-color: #1e1e1e;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        min-height: 110vh; /* Ajusta a altura mínima para 100% da altura da tela */
-        justify-content: center; /* Centraliza verticalmente */
-    }
-    .stTitle {
-        font-family: 'Segoe UI', sans-serif;
-        color: #f0f0f0;
-        font-size: 40px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .stSubheader {
-        font-family: 'Segoe UI', sans-serif;
-        color: #f0f0f0;
-        font-size: 28px;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .stMarkdown {
-        font-family: 'Segoe UI', sans-serif;
-        color: #d3d3d3;
-        font-size: 18px;
-        line-height: 1.6;
-        text-align: justify;
-        margin: 0 10px;
-        margin-bottom: 40px; /* Aumenta a margem inferior */
-    }
-    .stSelectbox {
-        margin-bottom: 20px;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    footer {
-        text-align: center;
-        margin-top: auto; /* Coloca o rodapé na parte inferior */
-        font-family: 'Segoe UI', sans-serif;
-        color: #888;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+# st.markdown("""
+#     <style>
+#     .main {
+#         background-color: #1e1e1e;
+#         padding: 10px;
+#         display: flex;
+#         flex-direction: column;
+#         min-height: 110vh; /* Ajusta a altura mínima para 100% da altura da tela */
+#         justify-content: center; /* Centraliza verticalmente */
+#     }
+#     .stTitle {
+#         font-family: 'Segoe UI', sans-serif;
+#         color: #f0f0f0;
+#         font-size: 40px;
+#         font-weight: bold;
+#         text-align: center;
+#         margin-top: 20px;
+#     }
+#     .stSubheader {
+#         font-family: 'Segoe UI', sans-serif;
+#         color: #f0f0f0;
+#         font-size: 28px;
+#         text-align: center;
+#         margin-top: 10px;
+#         margin-bottom: 20px;
+#     }
+#     .stMarkdown {
+#         font-family: 'Segoe UI', sans-serif;
+#         color: #d3d3d3;
+#         font-size: 18px;
+#         line-height: 1.6;
+#         text-align: justify;
+#         margin: 0 10px;
+#         margin-bottom: 40px; /* Aumenta a margem inferior */
+#     }
+#     .stSelectbox {
+#         margin-bottom: 20px;
+#         width: 50%;
+#         margin-left: auto;
+#         margin-right: auto;
+#     }
+#     footer {
+#         text-align: center;
+#         margin-top: auto; /* Coloca o rodapé na parte inferior */
+#         font-family: 'Segoe UI', sans-serif;
+#         color: #888;
+#     }
+#     </style>
+#     """, unsafe_allow_html=True)
 
 languages_future = {
     "Python": """
